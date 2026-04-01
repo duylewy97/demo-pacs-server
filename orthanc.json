@@ -7,8 +7,14 @@
   "HttpPort": 8042,
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": false,
-  "Plugins": ["/usr/share/orthanc/plugins", "/usr/local/share/orthanc/plugins"],
-  "CorsOrigin": "*",
+  "Plugins": [
+    "/usr/share/orthanc/plugins", 
+    "/usr/local/share/orthanc/plugins"
+  ],
+  "DicomWeb": {
+    "Enable": true
+  },
+  "CorsOrigin": "https://anhduy97.netlify.app",
   "CorsAllowedMethods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  "CorsAllowedHeaders": ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization", "dicom-transfer-role", "Cache-Control", "Pragma", "If-Modified-Since", "Dicom-Transfer-Syntax"]
+  "CorsAllowedHeaders": ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization", "dicom-transfer-role", "Cache-Control"]
 }
