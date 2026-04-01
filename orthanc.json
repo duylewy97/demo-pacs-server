@@ -10,5 +10,5 @@
   "Plugins": ["/usr/share/orthanc/plugins", "/usr/local/share/orthanc/plugins"],
   "CorsOrigin": "*",
   "CorsAllowedMethods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  "CorsAllowedHeaders": ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization", "dicom-transfer-role"]
+  "CorsAllowedHeaders": ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization", "dicom-transfer-role", "Cache-Control", "Pragma", "If-Modified-Since", "Dicom-Transfer-Syntax"]
 }
